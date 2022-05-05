@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.title{
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.App{
+    padding: 0 1rem;
+}
+input{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #666;
+}
+input:focus{
+    outline: none;
+    border-color: #0a0a0a;
+}
+.form-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
